@@ -30,14 +30,14 @@ p.fix
     text-align: center;
     color: white;
 }
-img 
+p.img 
 {
     float: right;
     display: block;
     margin: auto;
     width: 200px;
 }
-div.abs1
+p.abs1
 {
     position: absolute;
     top:500px;
@@ -46,7 +46,7 @@ div.abs1
     border-style: dashed;
     text-align: center;
 }
-div.abs2
+param.abs2
 {
     position: absolute;
     top: 500px;
@@ -55,7 +55,7 @@ div.abs2
     border-style: dashed;
     text-align: center;
 }
-div.abs3
+p.abs3
 {
     position: absolute;
     top: 500px;
