@@ -1,0 +1,32 @@
+h1
+{
+    background-color: Gray;
+    color: white;
+}
+h2
+{
+    background-color: Navy;
+    color: white; 
+}
+.sub
+{
+    position: relative;
+    top:3px;
+    font-size:75%;
+}
+.super
+{
+    position: relative;
+    top: -3px;
+    font-size: 75%;
+}
+p.abs
+{
+    position: absolute;
+    top:50px;
+    left:50px;
+    width: 150px;
+    border-style: dashed;
+    text-align: center;
+    color: white;
+}
