@@ -23,7 +23,7 @@ h2
 p.fix
 {
     position: fixed;
-    top:400px;
+    top:500px;
     left:300px;
     width: 450px;
     border-style: dashed;
@@ -41,7 +41,7 @@ p.img
 a.abs1
 {
     position: fixed;
-    top:500px;
+    top:600px;
     left: 100px;
     width: 200px;
     border-style: dashed;
@@ -50,7 +50,7 @@ a.abs1
 a.abs2
 {
     position: fixed;
-    top: 500px;
+    top: 600px;
     left: 520px;
     width: 200px;
     border-style: dashed;
@@ -59,8 +59,8 @@ a.abs2
 a.abs3
 {
     position: fixed;
-    top: 500px;
-    left: 600px;
+    top: 600px;
+    left: 700px;
     width: 200px;
     border-style: dashed;
     text-align: center;
