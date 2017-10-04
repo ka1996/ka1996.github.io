@@ -36,3 +36,30 @@ img
     margin: auto;
     width: 200px;
 }
+div.abs1
+{
+    position: absolute;
+    top:500px;
+    left: 100px;
+    width: 100px;
+    border-style: dashed;
+    text-align: center;
+}
+div.abs2
+{
+    position: absolute;
+    top: 500px;
+    left: 520px;
+    width: 100px;
+    border-style: dashed;
+    text-align: center;
+}
+div.abs3
+{
+    position: absolute;
+    top: 500px;
+    left: 540px;
+    width: 100px;
+    border-style: dashed;
+    text-align: center;
+}
