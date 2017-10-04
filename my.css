@@ -24,7 +24,7 @@ p.fix
 {
     position: fixed;
     top:500px;
-    left:300px;
+    left:400px;
     width: 450px;
     border-style: dashed;
     text-align: center;
@@ -51,7 +51,7 @@ a.abs2
 {
     position: fixed;
     top: 600px;
-    left: 520px;
+    left: 500px;
     width: 200px;
     border-style: dashed;
     text-align: center;
@@ -60,7 +60,7 @@ a.abs3
 {
     position: fixed;
     top: 600px;
-    left: 700px;
+    left: 900px;
     width: 200px;
     border-style: dashed;
     text-align: center;
