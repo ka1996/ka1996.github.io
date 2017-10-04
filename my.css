@@ -32,12 +32,12 @@ p.fix
 }
 p.img 
 {
-    float: right;
+    float: center;
     display: block;
     margin: auto;
     width: 200px;
 }
-p.abs1
+a.abs1
 {
     position: absolute;
     top:500px;
@@ -46,20 +46,20 @@ p.abs1
     border-style: dashed;
     text-align: center;
 }
-param.abs2
+a.abs2
 {
     position: absolute;
-    top: 500px;
+    top: 5400px;
     left: 520px;
     width: 100px;
     border-style: dashed;
     text-align: center;
 }
-p.abs3
+a.abs3
 {
     position: absolute;
     top: 500px;
-    left: 540px;
+    left: 580px;
     width: 100px;
     border-style: dashed;
     text-align: center;
