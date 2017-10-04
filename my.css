@@ -39,28 +39,28 @@ p.img
 }
 a.abs1
 {
-    position: absolute;
+    position: fixed;
     top:500px;
     left: 100px;
-    width: 100px;
+    width: 200px;
     border-style: dashed;
     text-align: center;
 }
 a.abs2
 {
-    position: absolute;
-    top: 5400px;
+    position: fixed;
+    top: 540px;
     left: 520px;
-    width: 100px;
+    width: 200px;
     border-style: dashed;
     text-align: center;
 }
 a.abs3
 {
-    position: absolute;
+    position: fixed;
     top: 500px;
     left: 580px;
-    width: 100px;
+    width: 200px;
     border-style: dashed;
     text-align: center;
 }
