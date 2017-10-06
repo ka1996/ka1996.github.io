@@ -79,7 +79,11 @@ a.abs3
     border-style: dashed;
     text-align: center;
 }
-td.color
+td.color1
 {
-    background-color: white
+    background-color:bisque
+}
+td.color2
+{
+    background-color: silver
 }
