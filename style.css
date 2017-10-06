@@ -79,3 +79,7 @@ a.abs3
     border-style: dashed;
     text-align: center;
 }
+td.color
+{
+    background-color: white
+}
