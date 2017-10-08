@@ -93,8 +93,7 @@ td.color2
 h1.img
 {
     position: absolute;
-    margin-left: 0px;
-    margin-right: 0;
+    width: 100%;
     padding: 15px;
     height: 40px;
     background-size: 100%;
