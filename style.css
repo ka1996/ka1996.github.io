@@ -46,12 +46,20 @@ p.fix
 }
 p.img 
 {
-    float: center;
+    position: center;
     display: block;
     margin: auto;
     width: 200px;
     height: 300px;
 }
+h1.img 
+{
+    position:absolute;
+    left: 0;
+    right: 0;
+    padding:15px;   
+}
+
 a.abs1
 {
     position: fixed;
