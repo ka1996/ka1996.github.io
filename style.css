@@ -9,7 +9,7 @@ h2
 }
 h4
 {
-
+    
     color: white;   
 }
 p.serif 
@@ -33,9 +33,9 @@ p.sansserif
     top: -3px;
     font-size: 75%;
 }
-p.fix
+p.absolute
 {
-    position: fixed;
+    position: absolute;
     top:500px;
     left:400px;
     width: 450px;
@@ -90,11 +90,11 @@ td.color2
 {
     background-color: silver
 }
-img
+h1.img
 {
     position: absolute;
-    left: 0;
-    right: 0;
+    margin-left: 0px;
+    margin-right: 0;
     padding: 15px;
     height: 40px;
     background-size: 100%;
