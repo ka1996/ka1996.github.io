@@ -90,7 +90,7 @@ td.color2
 {
     background-color: silver
 }
-h1.img
+img
 {
     position: absolute;
     width: 100%;
@@ -98,4 +98,8 @@ h1.img
     height: 40px;
     background-size: 100%;
 
+}
+p.parstyle
+{
+    text-align: center;
 }
