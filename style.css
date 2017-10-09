@@ -81,14 +81,14 @@ a.abs3
 }
 td.color1
 {
-    background-color:bisque
+    background-color:bisque;
 }
 td.color2
 {
-    background-color: silver
+    background-color: silver;
 }
-
-p.parstyle
+img.logobanner
 {
-    text-align: center;
+    width: 100%;
+    height: 40px;
 }
