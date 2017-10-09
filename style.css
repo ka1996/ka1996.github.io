@@ -12,11 +12,6 @@ h4
     
     color: white;   
 }
-p 
-{
-    font-family: "Times New Roman", Times, serif;
-    background-color: white;
-}
 
 .sub
 {
@@ -91,4 +86,10 @@ img.logobanner
 {
     width: 100%;
     height: 40px;
+}
+p.motto
+{
+    font-family: Comic, Impact, 'Arial Narrow Bold';
+    font-size: 250%
+    
 }
