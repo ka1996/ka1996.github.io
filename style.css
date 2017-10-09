@@ -47,7 +47,7 @@ body
 {
   background-image: url("https://ldsmag.com/wp-content/uploads/2017/04/mountain.jpg");
 }  
-a.apparel
+div.apparel
 {
     position: fixed;
     top:200px;
@@ -58,7 +58,7 @@ a.apparel
     color: white;
     height: 20px;
 }
-a.equipment
+div.equipment
 {
     position: fixed;
     top: 250px;
@@ -69,7 +69,7 @@ a.equipment
     color: white;
     height: 20px;
 }
-a.contact
+div.contact
 {
     position: fixed;
     top: 300px;
