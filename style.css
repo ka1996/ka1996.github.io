@@ -55,7 +55,6 @@ div.apparel
     width: 200px;
     background-color: silver;
     text-align: "center";
-    color: white;
     height: 40px;
 }
 div.equipment
@@ -66,7 +65,6 @@ div.equipment
     width: 200px;
     background-color: silver;
     text-align: "center";
-    color: white;
     height: 40px;
 }
 div.contact
@@ -77,7 +75,6 @@ div.contact
     width: 200px;
     background-color: silver;
     text-align: "center";
-    color: white;
     height: 40px;
 
 }
@@ -105,10 +102,10 @@ p.motto
 }
 a.links
 {
-    text-decoration: underline;
+    border-color:lightgreen ;
     font-weight: bold;
     font-size: 1.4em;
     color: #ed490a;
-    background-color: #c0c0c0;
+    background-color: #144209;
     border-bottom: 2px solid #a959c3;
 }
