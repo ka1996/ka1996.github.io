@@ -141,3 +141,12 @@ p.notice
     text-align: center;
     color: white;
 }
+p.welcome
+{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border:3px white;
+    padding: 10px;
+    color: salmon;
+}
