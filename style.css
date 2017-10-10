@@ -55,6 +55,7 @@ div.apparel
     width: 200px;
     text-align: "center";
     height: 40px;
+    display: inline-block;
 }
 div.equipment
 {
@@ -64,6 +65,7 @@ div.equipment
     width: 200px;
     text-align: "center";
     height: 40px;
+    display: inline-block;
 }
 div.contact
 {
@@ -73,6 +75,7 @@ div.contact
     width: 200px;
     text-align: "center";
     height: 40px;
+    display: inline-block;
 
 }
 td.color1
@@ -104,5 +107,4 @@ a.links
     font-size: 1.4em;
     color: #ed490a;
     background-color: #144209;
-    border-bottom: 2px solid #a959c3;
 }
