@@ -138,9 +138,8 @@ p.notice
 {
     position: absolute;
     top:50px;
-    left: 50%;
-    margin-right: -50;
-    transform: translate(-50%, 50%);
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
     color: white;
 }
