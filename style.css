@@ -11,7 +11,8 @@ h4
 {
     font-size:1.4em; 
     color: white;  
-    margin-left: 50%; 
+    margin-left: 40%; 
+    border: salmon;
 }
 
 .sub
@@ -104,17 +105,21 @@ a.links
     border-color:lightgreen ;
     font-weight: bold;
     font-size: 1.4em;
-    color: #ed490a;
+    color: salmon;
     background-color: #144209;
 }
 div.home
 {
     background-color: white;
-    position: fixed;
-    top: 500px;
-    margin-left: 40%;
+    position: relative;
+    margin-left: 50%;
     text-align: "center";
     height: 40px;
+    vertical-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+
 }
 table
 {
@@ -128,7 +133,7 @@ table
 }
 p.notice
 {
-    position: absolute;
+    position: relative;
     top:50px;
     left: 50%;
     margin-right: -50;
