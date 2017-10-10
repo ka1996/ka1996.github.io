@@ -29,8 +29,7 @@ p.mission
 {
     position: absolute;
     top:200px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
     width: 450px;
     border-style: dashed;
     text-align: center;
@@ -54,7 +53,6 @@ div.apparel
     top:200px;
     left: 50px;
     width: 200px;
-    background-color: silver;
     text-align: "center";
     height: 40px;
 }
@@ -64,7 +62,6 @@ div.equipment
     top: 300px;
     left: 50px;
     width: 200px;
-    background-color: silver;
     text-align: "center";
     height: 40px;
 }
@@ -74,7 +71,6 @@ div.contact
     top: 400px;
     left: 50px;
     width: 200px;
-    background-color: silver;
     text-align: "center";
     height: 40px;
 
