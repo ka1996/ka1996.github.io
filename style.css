@@ -113,4 +113,9 @@ div.home
 th
 {
     background-color: white;
+    width: 80%;
+    text-align: center;
+    vertical-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #144209;
 }
