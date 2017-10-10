@@ -10,9 +10,10 @@ h2
 h4
 {
     font-size:1.4em; 
-    color: white;  
-    margin-left: 40%; 
-    border: salmon;
+    color:salmon;  
+    left: 50%; 
+    margin-right: -50;
+    transform: translate(-50%, 50%);
 }
 
 .sub
@@ -133,7 +134,7 @@ table
 }
 p.notice
 {
-    position: relative;
+    position: absolute;
     top:50px;
     left: 50%;
     margin-right: -50;
