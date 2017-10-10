@@ -56,18 +56,18 @@ div.apparel
     background-color: silver;
     text-align: "center";
     color: white;
-    height: 20px;
+    height: 40px;
 }
 div.equipment
 {
     position: fixed;
-    top: 30px;
+    top: 300px;
     left: 50px;
     width: 200px;
     background-color: silver;
     text-align: "center";
     color: white;
-    height: 20px;
+    height: 40px;
 }
 div.contact
 {
@@ -78,7 +78,7 @@ div.contact
     background-color: silver;
     text-align: "center";
     color: white;
-    height: 20px;
+    height: 40px;
 
 }
 td.color1
