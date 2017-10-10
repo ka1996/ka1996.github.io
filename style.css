@@ -30,10 +30,9 @@ h4
 }
 p.mission
 {
-    position: absolute;
     top:200px;
     width: 60%;
-    margin-left: 10%;
+    margin-left: 20%;
     border-style: dashed;
     text-align: center;
     color: white;
