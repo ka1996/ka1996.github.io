@@ -110,7 +110,7 @@ div.home
 {
     background-color: white;
 }
-th
+table
 {
     background-color: white;
     width: 80%;
@@ -125,7 +125,7 @@ th
 p.notice
 {
     position: absolute;
-    top:100px;
+    top:50px;
     left: 50%;
     margin-right: -50;
     transform: translate(-50%, 50%);
