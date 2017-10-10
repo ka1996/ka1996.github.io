@@ -119,10 +119,10 @@ div.home
     text-align: "center";
     height: 40px;
     vertical-align: center;
-    color: white;
+    color: salmon;
     font-weight: bold;
     font-size: 1.4em;
-
+    text-decoration: none;
 }
 table
 {
