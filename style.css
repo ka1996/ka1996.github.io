@@ -29,8 +29,9 @@ p.mission
 {
     position: absolute;
     top:200px;
-    align-items: center;
-    width: 450px;
+    left: 50%;
+    margin-right: -50;
+    transform: translate(-50%, 50%);
     border-style: dashed;
     text-align: center;
     color: white;
@@ -52,30 +53,27 @@ div.apparel
     position: fixed;
     top:200px;
     left: 50px;
-    width: 200px;
+    width: 300px;
     text-align: "center";
     height: 40px;
-    display: inline-block;
 }
 div.equipment
 {
     position: fixed;
     top: 300px;
     left: 50px;
-    width: 200px;
+    width: 300px;
     text-align: "center";
     height: 40px;
-    display: inline-block;
 }
 div.contact
 {
     position: fixed;
     top: 400px;
     left: 50px;
-    width: 200px;
+    width: 300px;
     text-align: "center";
     height: 40px;
-    display: inline-block;
 
 }
 td.color1
