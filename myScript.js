@@ -12,3 +12,30 @@ alert(largest);
 
 //output using InnerHTML
 document.getElementById("output").innerHTML = largest;
+
+function gatherWords(){
+    //this array holds all of the input words
+    var words = [];
+    //this loop is designed to take in 5 words 
+    //from the user and store them in the array
+    var wordCount = 0;
+    while(wordCount < 5)
+    {
+        words.push(prompt("please enter a word"));
+        wordCount++;
+    }
+
+}
+function printWords(wordList){
+    //a counter for the loop
+    var counter = 0;
+
+    //This loop goes through the array and prints out each item
+    while(count < 5)
+    {
+        document.getElementById("result").innerHTML += wordList[count]
+        counter++;
+    }
+    //call the printWords function to output the array
+    printWords(words);
+}
