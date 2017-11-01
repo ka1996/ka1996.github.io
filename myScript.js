@@ -26,14 +26,14 @@ function gatherWords(){
     }
 
 }
-function printWords(wordList){
+function printWords(wordsList){
     //a counter for the loop
     var counter = 0;
 
     //This loop goes through the array and prints out each item
     while(count < 5)
     {
-        document.getElementById("result").innerHTML += wordList[count]
+        document.getElementById("results").innerHTML += wordList[count];
         counter++;
     }
     //call the printWords function to output the array
