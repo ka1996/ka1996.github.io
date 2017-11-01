@@ -39,3 +39,10 @@ function printWords(wordsList){
     //call the printWords function to output the array
     printWords(words);
 }
+function validateForm(){
+    var x = document.forms["myForm"]["fname"].value;
+    if (x ==""){
+        alert("Name must be filled out");
+        return false;
+    }
+}
