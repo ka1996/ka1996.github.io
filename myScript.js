@@ -10,8 +10,7 @@ var date = new Date ();
 var n = date.toDateString();
 var time = date.toLocaleTimeString();
     //output using InnerHTML
-document.getElementById("time").innerHTML = n + 
-     ' ' + time;
+document.getElementById("time").innerHTML = n + '' + time;
 
 function validateForm(myForm){
     var x=document.forms["myForm"]["fname"].value;
