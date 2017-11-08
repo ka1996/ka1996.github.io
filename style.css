@@ -14,6 +14,14 @@ h4
     color:salmon;  
     width: 80%;
 }
+footer
+{
+    position: relative;
+    font-size:1.4em; 
+    color:salmon;  
+    width: 80%;
+}
+
 
 .sub
 {
@@ -50,31 +58,22 @@ body
 }  
 div.apparel
 {
-    position: fixed;
-    top:200px;
-    left: 10px;
-    width: 250px;
+    position: relative;
     text-align: "center";
-    height: 40px;
+    color: silver;
+    
 }
 div.equipment
 {
-    position: fixed;
-    top: 300px;
-    left: 10px;
-    width: 250px;
+    position: relative;
     text-align: "center";
-    height: 40px;
+    color: silver;
 }
 div.contact
 {
-    position: fixed;
-    top: 400px;
-    left: 10px;
-    width: 250px;
+    position: relative;
     text-align: "center";
-    height: 40px;
-
+    color: silver;
 }
 td.color1
 {
@@ -146,4 +145,52 @@ p.welcome
     border:3px white;
     padding: 10px;
     color: salmon;
+}
+label
+{
+    position: relative;
+    font-size:1.4em; 
+    color: silver;  
+}
+
+.dropbtn 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: salmon;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }

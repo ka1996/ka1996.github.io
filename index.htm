@@ -15,7 +15,6 @@
     <title>Open Outfitters</title>
   </head>
   <body>
-    <script src="myScript.js"></script>
       <article>
           <header>
             <img class = "logobanner" src = "Images/logobanner.png" alt="Company Banner">
@@ -28,9 +27,21 @@
               to the people most vulnerable to hunger, 
               violence and disease.</p>
           </header>
-    </article>
+        </article>
+        <h2>Check out the new directory!</h2>
+        <p>Move the mouse over the button to navigate our menu!.</p>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Directory</button>
+          <div class="dropdown-content">
+            <a href="index.htm">Home</a>
+            <a href="apparel.html">Apparel</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="contactUs.html">Contact Us</a>
+          </div>
+        </div>
 
-                <div class="apparel">
+                <!-- <div class="apparel">
                     <li style = "list-style-type: none;">
                         <a class = "links" href="apparel.html">Apparel</a>
                     </li>
@@ -44,9 +55,10 @@
                     <li style = "list-style-type: none;">
                         <a class = "links" href="contactUs.html">Contact Us</a>
                     </li>
-                </div>
+                </div> -->
                 
-       <h4> <div id = "time" ></div></h4> 
+                <h4>Today's Date is:  <div id = "date" ></div></h4>   
   </body>
+    <script src="myScript.js"></script>
   </html>
 

@@ -6,38 +6,34 @@
   //      return false;
   //  }
 //}
-var date = new Date ();
-var n = date.toDateString();
-var time = date.toLocaleTimeString();
-    //output using InnerHTML
-document.getElementById("time").innerHTML = n + '' + time;
+
+document.getElementById("date").innerHTML = new Date();
 
 function validateForm(myForm){
-    var x=document.forms["myForm"]["fname"].value;
-        if (x==null || x=="")
+    var x=document.forms["contactUs"]["fname"].value;
+        if (!isNaN(x) || x=="")
         {
           alert("First name must be entered");
           return false;
         }
         
-    var y=document.forms["myForm"]["lname"].value;
+    var y=document.forms["contactUs"]["lname"].value;
         {
-        if (y==null || y=="")
+        if (!isNaN(y) || y=="")
           alert("Last name must be entered");
           return false;
         }
-    var z=document.forms["myForm"]["email"].value;
+    var z=document.forms["contactUs"]["email"].value;
         {
-        if (z==null || z=="")
+        if (!isNaN(z) || z=="")
           alert("Email address must be entered");
           return false;
         }
-    var k=document.forms["myForm"]["comment"].value;
+    var k=document.forms["contactUs"]["question"].value;
         {
-        if (k==null || k=="")
+        if (!isNaN(k) || k=="")
           alert("Comment in the box below");
           return false;
         }
-        }
-    console.log(c);
+    }
         
