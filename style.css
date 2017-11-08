@@ -13,6 +13,7 @@ h4
     font-size:1.4em; 
     color:salmon;  
     width: 80%;
+    text-align: center;
 }
 footer
 {
@@ -21,7 +22,12 @@ footer
     color:salmon;  
     width: 80%;
 }
-
+p
+{
+    position: relative;
+    font-size:1.4em; 
+    color:white;  
+}
 
 .sub
 {
@@ -163,13 +169,15 @@ label
     cursor: pointer;
 }
 
-.dropdown {
+.dropdown 
+{
     position: relative;
     display: inline-block;
     margin: center;
 }
 
-.dropdown-content {
+.dropdown-content 
+{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -185,9 +193,13 @@ label
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover 
+{
+    background-color: #f1f1f1
+}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content 
+{
     display: block;
 }
 

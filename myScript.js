@@ -7,9 +7,7 @@
   //  }
 //}
 
-document.getElementById("date").innerHTML = new Date();
-
-function validateForm(myForm){
+function validateForm(contactUs){
     var x=document.forms["contactUs"]["fname"].value;
         if (!isNaN(x) || x=="")
         {
@@ -37,3 +35,4 @@ function validateForm(myForm){
         }
     }
         
+document.getElementById("date").innerHTML = new Date();
