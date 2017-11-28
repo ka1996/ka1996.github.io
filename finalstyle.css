@@ -15,4 +15,5 @@ p
 body 
 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Flinders_-_over_Desert_plain.JPG");
+  background-size: 100%
 }  
