@@ -5,3 +5,9 @@ h1
     text-align: center;
     border-bottom: turquoise;
 }
+p
+{
+    color: red;
+    font-family: Courier New, Courier, monospace;
+    font-size: 1.5em;
+}
