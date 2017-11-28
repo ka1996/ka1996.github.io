@@ -64,6 +64,7 @@ p.img
 body 
 {
   background-image: url("https://ldsmag.com/wp-content/uploads/2017/04/mountain.jpg");
+  background-size: cover;
 }  
 div.apparel
 {
