@@ -17,3 +17,56 @@ body
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Flinders_-_over_Desert_plain.JPG");
   background-size: 100%
 }  
+img.trafficRed
+{
+    position: fixed;
+    left: 45.5%;
+    height: 150px;
+    width: 135px;
+    top: 150px;
+    visibility: visible;
+}
+img.trafficGreen
+{
+    position: fixed;
+    left: 49.5%;
+    height: 150px;
+    width: 75px;
+    top: 150px;
+    visibility: hidden;
+}
+button.start
+{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position:absolute;
+        transition: .5s ease;
+        top: 35%;
+        left: 47.5%;
+
+}
+#car1
+{
+    position: fixed;
+    left: 10px;
+    bottom: 10%;
+    width: 400px;
+    height: 240px;
+
+}
+#car2
+{
+    position: fixed;
+    left: 25px;
+    bottom: 5%;
+    width: 315px;
+    height: 125px;
+}
