@@ -14,26 +14,33 @@ function changeLight(){
     var pace1 = setInterval(frame, 10);
     var pace2 = setInterval(frame, 10);
     function frame() {
-        console.log(total1);
-      if (total1 >= 1000) {
+      if (total1 >= 1200) {
         clearInterval (pace1);
         clearInterval (pace2);
         alert("Congratulations top car won!");
+        y.style.visibility = 'hidden';
+        x.style.visibility = 'visible';
       } else {
         distance1 = Math.floor((Math.random() * 10) + 1 );
         total1 += distance1;
         car1.style.left = total1 + 'px'; 
       }
-      console.log(total2);
-      if (total2 >= 1000){
+      if (total2 >= 1200){
         clearInterval (pace1);
         clearInterval (pace2);
         alert("Congratulations bottom car won!");
+        y.style.visibility = 'hidden';
+        x.style.visibility = 'visible'; 
       } 
       else{
       distance2 = Math.floor((Math.random() * 10) + 1 );
       total2 += distance2;
       car2.style.left = total2 + 'px'; 
+      }
+      if (total1 >= 1200 || total2 >= 1200)
+      {
+        car2.style.left = 20 + 'px';
+        car1.style.left = 20 + 'px'; 
       }
     }
 }

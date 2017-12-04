@@ -15,7 +15,8 @@ p
 body 
 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Flinders_-_over_Desert_plain.JPG");
-  background-size: 100%
+  background-size: 100%;
+  background-repeat: no-repeat;
 }  
 img.trafficRed
 {
@@ -76,3 +77,11 @@ button.start
     height: 1000px;
     position: relative;
   }
+#finishLine{
+    position: fixed;
+    left: 1400px;
+    bottom: 40px;
+    width: 100px;
+    height: 225px;
+    z-index: 2;
+}
