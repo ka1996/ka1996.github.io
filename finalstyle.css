@@ -58,11 +58,29 @@ button.start
 #car1
 {
     position: fixed;
-    left: 10px;
+    left: 20px;
     bottom: 10%;
     width: 400px;
     height: 240px;
 
+}
+#car1Winner
+{
+    position: fixed;
+    left: 70%;
+    bottom: 65%;
+    width: 550px;
+    height: 375px;
+    visibility: hidden;
+}
+#car2Winner
+{
+    position: fixed;
+    left: 70%;
+    bottom: 70%;
+    width: 450px;
+    height: 250px;
+    visibility: hidden;
 }
 #car2
 {
@@ -84,4 +102,15 @@ button.start
     width: 100px;
     height: 225px;
     z-index: 2;
+}
+#winnerText
+{
+    position: fixed;
+    left: 80%;
+    bottom: 65%;
+    visibility: hidden;
+    color: black;
+    font-size: 2.0em;
+    text-align: center;
+    border-bottom: turquoise;
 }

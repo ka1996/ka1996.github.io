@@ -3,6 +3,9 @@ function changeLight(){
     var y = document.getElementById("trafficGreen");
     var car1 = document.getElementById("car1");
     var car2 = document.getElementById("car2");
+    var car1Winner = document.getElementById("car1Winner");
+    var car2Winner = document.getElementById("car2Winner");
+    var winnerText = document.getElementById("winnerText");
     var distance1 = 0;
     var distance2 = 0;
     var total1 = 20;
@@ -20,6 +23,8 @@ function changeLight(){
         alert("Congratulations top car won!");
         y.style.visibility = 'hidden';
         x.style.visibility = 'visible';
+        car1Winner.style.visibility = 'visible';
+        winnerText.style.visibility = 'visible';
       } else {
         distance1 = Math.floor((Math.random() * 10) + 1 );
         total1 += distance1;
@@ -31,6 +36,8 @@ function changeLight(){
         alert("Congratulations bottom car won!");
         y.style.visibility = 'hidden';
         x.style.visibility = 'visible'; 
+        car2Winner.style.visibility = 'visible';
+        winnerText.style.visibility = 'visible';
       } 
       else{
       distance2 = Math.floor((Math.random() * 10) + 1 );
