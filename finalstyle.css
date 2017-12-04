@@ -24,7 +24,7 @@ img.trafficRed
     height: 150px;
     width: 135px;
     top: 150px;
-    visibility: visible;
+    
 }
 img.trafficGreen
 {
@@ -34,23 +34,24 @@ img.trafficGreen
     width: 75px;
     top: 150px;
     visibility: hidden;
+    
 }
 button.start
 {
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        position:absolute;
-        transition: .5s ease;
-        top: 35%;
-        left: 47.5%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    transition: .5s ease;
+    top: 35%;
+    left: 47.5%;
 
 }
 #car1
@@ -70,3 +71,8 @@ button.start
     width: 315px;
     height: 125px;
 }
+#myContainer {
+    width: 400px;
+    height: 1000px;
+    position: relative;
+  }
